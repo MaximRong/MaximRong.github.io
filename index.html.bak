@@ -29,10 +29,6 @@
       <section id="main_content" class="inner">
         <h1>
 <a name="%E9%9D%92%E5%B9%B4%E7%97%B4%E5%91%86%E7%97%87%E6%82%A3%E8%80%85%E4%B8%8D%E8%AE%B0%E4%B8%8B%E6%9D%A5%E8%BD%AC%E7%9C%BC%E5%B0%B1%E4%BC%9A%E5%BF%98%E6%8E%89" class="anchor" href="#%E9%9D%92%E5%B9%B4%E7%97%B4%E5%91%86%E7%97%87%E6%82%A3%E8%80%85%E4%B8%8D%E8%AE%B0%E4%B8%8B%E6%9D%A5%E8%BD%AC%E7%9C%BC%E5%B0%B1%E4%BC%9A%E5%BF%98%E6%8E%89"><span class="octicon octicon-link"></span></a>青年痴呆症患者不记下来转眼就会忘掉....</h1>
-	  
-	  {% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　{% endfor %}
       </section>
     </div>
 
